@@ -17,8 +17,7 @@
   <header class="site-header" aria-label="Site header">
     <a class="wordmark" href="/" aria-label="Aidan Nagle home">AN</a>
 
-    <!-- Future navigation. Remove the hidden attribute as sections are completed. -->
-    <nav class="site-nav" aria-label="Primary navigation" hidden>
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
@@ -40,11 +39,37 @@
       </div>
     </section>
 
-    <!-- Future portfolio sections. Remove the hidden attribute when content is ready. -->
-    <section id="about" hidden></section>
-    <section id="experience" hidden></section>
-    <section id="projects" hidden></section>
-    <section id="contact" hidden></section>
+    <section class="portfolio-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="section-number" aria-hidden="true">01</p>
+        <h2 id="about-title">About</h2>
+      </div>
+      <div class="section-space" aria-hidden="true"></div>
+    </section>
+
+    <section class="portfolio-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p class="section-number" aria-hidden="true">02</p>
+        <h2 id="experience-title">Experience</h2>
+      </div>
+      <div class="section-space" aria-hidden="true"></div>
+    </section>
+
+    <section class="portfolio-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="section-number" aria-hidden="true">03</p>
+        <h2 id="projects-title">Projects</h2>
+      </div>
+      <div class="section-space" aria-hidden="true"></div>
+    </section>
+
+    <section class="portfolio-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading">
+        <p class="section-number" aria-hidden="true">04</p>
+        <h2 id="contact-title">Contact</h2>
+      </div>
+      <div class="section-space" aria-hidden="true"></div>
+    </section>
   </main>
 
   <footer class="site-footer">
